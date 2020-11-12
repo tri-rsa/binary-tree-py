@@ -13,5 +13,5 @@ El archivo binarySearchTree.py es el programa que hay que modificar, con el sigu
 
 Deben de crear un Branch **(nombre del brach - Su nombre completo)** con sus cambios y solicitar un Pull request.  
 
-# Suerte!!! :)
+# Exito!!! :)
 
