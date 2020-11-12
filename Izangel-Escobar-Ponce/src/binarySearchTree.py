@@ -19,7 +19,6 @@ class Node:
         self.right = None
         self.key = key
 
-
 class BinarySearchTree(object):
     pre_order = 'PREORDER'
     in_order = 'INORDER'
@@ -27,10 +26,8 @@ class BinarySearchTree(object):
 
     def __init__(self, root=None):
         self.root = root
-
     def get_root(self):
         return self.root
-
     def insert(self, key):
         if self.root is None:
             self.root = Node(key)
@@ -88,7 +85,6 @@ class BinarySearchTree(object):
             return 0
         left_subtree = self.max_depth(this_node.left)
         right_subtree = self.max_depth(this_node.right)
-
         return max(left_subtree, right_subtree)+1
 
     def print_all_leaf_node(self, this_node):
@@ -142,7 +138,6 @@ class BinarySearchTree(object):
     def level_order_without_recursion(self):
         queue = [self.root]
         data = []
-
         while queue:
             node = queue.pop(0)
             data.append(str(node.key))
@@ -155,7 +150,6 @@ class BinarySearchTree(object):
 
     def find_inorder_succesor(self, this_node):
         ptr = this_node
-
         while ptr.left is not None:
             ptr = ptr.left
         return ptr
@@ -180,22 +174,17 @@ class BinarySearchTree(object):
 
             # case 2 : Have 2 child node: then assign this node to its inorder successor
             temp = self.find_inorder_succesor(this_node.right)
-
             this_node.key = temp.key
             this_node.right = self.delete_node(this_node.right, temp.key)
         return this_node
-
-    
-
 if __name__=='__main__':
     print('Binary Search TREE')
-
-    bst = BinarySearchTree()
-    bst.insert(3)
-    bst.insert(1)
-    bst.insert(2)
-    bst.insert(4)
-    bst.insert(5)
+    print('Cuantos numeros quieres insertar')
+    cantidad = input()
+    while(num != cantidad)
+        bst = BinarySearchTree()
+        bst.insert(randrange(100))
+        num = num + 1
     bst.print()
     bst.print(traversal_type='preorder')
     bst.print(traversal_type='postorder')
