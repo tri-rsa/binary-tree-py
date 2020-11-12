@@ -12,7 +12,7 @@ Binary search tree implementation
 9. level order traversal without recursion
 10. delete node with given key
 '''
-
+import random
 class Node:
     def __init__(self, key):
         self.left = None
@@ -180,12 +180,11 @@ class BinarySearchTree(object):
 if __name__=='__main__':
     print('Binary Search TREE')
     print('Cuantos numeros quieres insertar')
-    ca = input()
-    cantidad = int(ca)
+    cantidad = int(input())
     num = 1
-    while num < cantidad
-        bst = BinarySearchTree()
-        bst.insert(randrange(100))
+    bst = BinarySearchTree()
+    while num <= cantidad:
+        bst.insert(random.randrange(50))
         num += 1
     bst.print()
     bst.print(traversal_type='preorder')
