@@ -180,11 +180,13 @@ class BinarySearchTree(object):
 if __name__=='__main__':
     print('Binary Search TREE')
     print('Cuantos numeros quieres insertar')
-    cantidad = input()
-    while(num != cantidad)
+    ca = input()
+    cantidad = int(ca)
+    num = 1
+    while num < cantidad
         bst = BinarySearchTree()
         bst.insert(randrange(100))
-        num = num + 1
+        num += 1
     bst.print()
     bst.print(traversal_type='preorder')
     bst.print(traversal_type='postorder')
