@@ -15,5 +15,7 @@ Deben de crear un Branch **(nombre del brach - Su nombre completo)** con sus cam
 
 
 
+
 # Suerte Banda!!! :)
 
+Este programa te permite crear un arbol binario, el usuario ingresa el numero de datos y los datos a ingresar
