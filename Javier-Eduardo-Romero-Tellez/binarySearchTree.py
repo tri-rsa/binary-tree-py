@@ -12,6 +12,8 @@ Binary search tree implementation
 9. level order traversal without recursion
 10. delete node with given key
 '''
+import random
+
 
 class Node:
     def __init__(self, key):
@@ -194,8 +196,7 @@ if __name__=='__main__':
     n = int(input("Ingrese el numero de inserciones: "))
     c = 0
     while c < n:
-        i = int(input("Ingrese un dato: "))
-        bst.insert(i)
+        bst.insert(random.randint(1,100))
         c += 1
 
     bst.print()
