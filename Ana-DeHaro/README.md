@@ -13,7 +13,11 @@ El archivo binarySearchTree.py es el programa que hay que modificar, con el sigu
 
 Deben de crear un Branch **(nombre del brach - Su nombre completo)** con sus cambios y solicitar un Pull request.  
 
-Cambio hecho por Ana Sofía De Haro **Ejemplo**
+**Factorial de un número**
+
+El archivo de factorial necesita cualquier IDE que pueda correr archivos .java
+Este proyecto funciona como una calculadora de factoriales con método de recursión.
+Ingresas el número del que quieres obtener el factorial y el programa te da el resultado
 
 # Suerte!!! :)
 
