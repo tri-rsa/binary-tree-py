@@ -13,4 +13,6 @@ Se evalúa entonces f(ck). Si es suficientemente pequeño, ck es la raíz buscad
     - [ck, bk] en caso contrario.
 
 
-# **C:**
+Este programa se ejecuta mediante python, se agregan los valores a, b y la tolerancia al momento de llamar el metodo al final.
+
+Saludos C:
