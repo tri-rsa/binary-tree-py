@@ -13,5 +13,7 @@ El archivo binarySearchTree.py es el programa que hay que modificar, con el sigu
 
 Deben de crear un Branch **(nombre del brach - Su nombre completo)** con sus cambios y solicitar un Pull request.  
 
+Los cambios realizados fueron la adicion de un ciclo WHILE para poder añadir insertar valores deseados, simplemente añades la cantidad de inserciones y posteriomente los valores que deseas de acuerdo a la cantidad de inserciones.
+
 # 
 # Suerte!!! :D **
