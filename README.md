@@ -15,3 +15,4 @@ Deben de crear un Branch **(nombre del brach - Su nombre completo)** con sus cam
 
 # Suerte!!! :)
 
+se modifico el programa base para que pida cuantos numero se insertaran, luego se insertan utilizando el metodo random
